@@ -20,9 +20,9 @@
 
 <body>
     <div id="root">
-        <ol>
-            <li></li>
-        </ol>
+        <ul v-for="mail in mails">
+            <li v-text="mail"></li>
+        </ul>
     </div>
 
     <script src="js/script.js"></script>
