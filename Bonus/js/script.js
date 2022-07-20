@@ -22,7 +22,6 @@ const app = new Vue({
                     this.mails.push(email);
                 })
             }
-            return this.mail
         }
     },
 })
