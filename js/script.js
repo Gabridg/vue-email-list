@@ -14,6 +14,7 @@ const app = new Vue({
         numberOfMail: 10
     },
     methods: {
+
     },
     created() {
         for (let i = 1; i <= this.numberOfMail; i++) {
